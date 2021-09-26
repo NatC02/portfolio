@@ -3,10 +3,19 @@ import React from 'react'
 class About extends React.Component {
   render() {
     return (
-      <section id="four" className="red">
+      <section id="four" className="green">
         <h1 >
            <strong> About</strong>
         </h1>
+        
+
+
+
+
+
+
+
+
         
         <div class="wave">
         <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
