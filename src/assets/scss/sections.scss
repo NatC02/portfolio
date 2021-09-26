@@ -1,0 +1,213 @@
+h1 {
+  font-size: 4rem;
+}
+
+p {
+  font-size: 1rem;
+}
+
+body {
+  margin: 0;
+  // font-family: 'Prompt', sans-serif;
+  font-family: 'source-code-pro', monospace;
+  overflow-x: hidden;
+  color: white;
+
+  // background: #AB73E3;
+
+  background: linear-gradient(
+    137.42deg,
+    #2b1d39 0%,
+    #7828c8 50.43%,
+    #2b1d39 100%
+  );
+  background-size: 600% 600%;
+  animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+section {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 400px;
+  padding-top: 100px;
+}
+
+.blue {
+  background: #73abe3;
+}
+
+.green {
+  background: #78c828;
+}
+
+.pink {
+  background: #e373ab;
+  overflow: hidden;
+}
+
+.dark {
+  background: #000000;
+}
+
+/* Curved bg with plain CSS */
+
+// .curve {
+//   position: absolute;
+//   height: 250px;
+//   width: 100%;
+//   bottom: 0;
+//   text-align: center;
+// }
+
+// .curve::before {
+//   content: '';
+//   display: block;
+//   position: absolute;
+//   border-radius: 100% 50%;
+//   width: 55%;
+//   height: 100%;
+//   transform: translate(85%, 60%);
+//   background-color: hsl(270, 67%, 67%);
+// }
+
+// .curve::after {
+//   content: '';
+//   display: block;
+//   position: absolute;
+//   border-radius: 100% 50%;
+//   width: 55%;
+//   height: 100%;
+//   background-color: #73abe3;
+//   transform: translate(-4%, 40%);
+//   z-index: -1;
+// }
+
+/* Bubble bg with plain CSS */
+
+.bubble::after {
+  content: '';
+  border-top-left-radius: 50% 100%;
+  border-top-right-radius: 50% 100%;
+  position: absolute;
+  bottom: 0;
+  z-index: -1;
+  width: 100%;
+  background-color: #000000;
+  height: 85%;
+}
+
+/* Curved bg with SVG via https://www.shapedivider.app/ */
+
+.wave {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.wave svg {
+  position: relative;
+  display: block;
+  width: calc(103% + 1.3px);
+  height: 262px;
+}
+
+.wave .shape-fill {
+  fill: hsl(0, 0%, 0%);
+}
+
+// Skills section Curved bg
+
+.skillsWave {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.skillsWave svg {
+  position: relative;
+  display: block;
+  width: calc(150% + 1.3px);
+  height: 211px;
+  transform: rotateY(180deg);
+}
+
+.skillsWave .shape-fill {
+  fill: #73abe3;
+}
+
+/** For tablet devices **/
+@media (min-width: 768px) and (max-width: 1023px) {
+  .skillsWave svg {
+    width: calc(150% + 1.3px);
+    height: 105px;
+  }
+}
+
+/** For mobile devices **/
+@media (max-width: 767px) {
+  .skillsWave svg {
+    width: calc(205% + 1.3px);
+    height: 211px;
+  }
+}
+
+/* SVG background image via https://haikei.app/ */
+
+.spacer {
+  aspect-ratio: 960/300;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.layer1 {
+  background-image: url('../images/layer1.svg');
+}
+.layer2 {
+  background-image: url('../images/layer2.svg');
+}
+.layer3 {
+  background-image: url('../images/layer3.svg');
+}
+
+.flip {
+  transform: rotate(180deg);
+}
+
+/* Blobs SVG background image via https://haikei.app/ */
+
+.blob-motion {
+  position: absolute;
+  transform: translateY(-20%);
+  z-index: 0;
+}
+
+.blob-content {
+  z-index: 1;
+}
+
+.blobs {
+  width: 100%;
+  background: url('../images/blobs.svg') no-repeat bottom / cover;
+}
