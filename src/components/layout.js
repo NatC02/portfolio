@@ -1,12 +1,17 @@
 import React from 'react'
-// import CurvedArrow from "react-curved-arrow";
+import "animate.css"
 
 import '../assets/scss/sections.scss'
+import '../assets/scss/skills.scss'
+import "../assets/scss/card.scss"
+import "../assets/scss/about.scss"
+import "../assets/scss/contact.scss"
+import "../assets/scss/footer.scss"
 
 import Header from './Header'
 import Skills from './Skills'
 import Projects from './Projects'
-import Blog from './Blog.js'
+// import Blog from './Blog.js'
 import About from './About'
 import Contact from './Contact'
 import Footer from './Footer'
@@ -39,12 +44,12 @@ class Template extends React.Component {
         <Header />
         <Skills />
         <Projects />
-        <Blog />
+        {/* <Blog /> */}
         <About />
         <div class="spacer layer1"></div>
         <Contact />
         <div class="spacer layer3"></div>
-        <Footer />
+        {/* <Footer /> */}
       </div>
     )
   }
