@@ -1,9 +1,17 @@
 h1 {
-  font-size: 4rem;
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2rem;
 }
 
 p {
   font-size: 1rem;
+}
+
+strong {
+  color: #486B8E;
 }
 
 body {
@@ -37,13 +45,50 @@ body {
   }
 }
 
-section {
+.sectionHeader {
   position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
   min-height: 400px;
   padding-top: 100px;
+}
+
+.sectionSkills {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 400px;
+  padding-top: 100px;
+}
+
+
+.sectionProjects {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 400px;
+  padding-top: 100px;
+}
+
+.sectionAbout {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 400px;
+  padding-top: 100px;
+}
+
+.sectionContact {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 400px;
+  padding-top: 5px;
 }
 
 .blue {
@@ -61,6 +106,49 @@ section {
 
 .dark {
   background: #000000;
+}
+
+// button styling
+
+button {
+  z-index: 1;
+  position: relative;
+  font-size: inherit;
+  font-family: inherit;
+  color: white;
+  margin-right: 20px;
+  margin-top: 10px;
+  border-radius: 10px;
+  padding: 0.125em 2.5em;
+  outline: none;
+  border: none;
+  background-color: hsl(210, 33%, 42%);
+  overflow: hidden;
+  transition: color 0.4s ease-in-out;
+}
+
+button::before {
+  content: '';
+  z-index: -1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 1em;
+  height: 1em;
+  border-radius: 50%;
+  background-color: #fff;
+  transform-origin: center;
+  transform: translate3d(-50%, -50%, 0) scale3d(0, 0, 0);
+  transition: transform 0.45s ease-in-out;
+}
+
+button:hover {
+  cursor: pointer;
+  color: #161616;
+}
+
+button:hover::before {
+  transform: translate3d(-50%, -50%, 0) scale3d(15, 15, 15);
 }
 
 /* Curved bg with plain CSS */
@@ -100,14 +188,14 @@ section {
 
 .bubble::after {
   content: '';
-  border-top-left-radius: 50% 100%;
-  border-top-right-radius: 50% 100%;
+  border-top-left-radius: 20% 5%;
+  border-top-right-radius: 20% 5%;
   position: absolute;
   bottom: 0;
   z-index: -1;
   width: 100%;
-  background-color: #000000;
-  height: 85%;
+  background-color: #000;
+  height: 90%;
 }
 
 /* Curved bg with SVG via https://www.shapedivider.app/ */
@@ -166,8 +254,8 @@ section {
 /** For mobile devices **/
 @media (max-width: 767px) {
   .skillsWave svg {
-    width: calc(205% + 1.3px);
-    height: 211px;
+    width: calc(100% + 1.3px);
+    height: 171px;
   }
 }
 
