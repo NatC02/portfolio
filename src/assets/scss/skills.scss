@@ -1,0 +1,137 @@
+.flexCenter {
+  display: flex;
+}
+
+.section-center {
+  width: 90vw;
+  margin: 0 auto;
+  max-width: 1170px;
+}
+
+@media screen and (min-width: 992px) {
+  .section-center {
+    width: 95vw;
+  }
+
+  .section {
+    padding: 5rem 0;
+  }
+}
+
+/* section */
+
+.skills h3 {
+  margin: 1.5rem 0;
+  color: #fff;
+  text-align: center;
+}
+
+.skill {
+  margin-bottom: 1.25rem;
+}
+
+.skill p {
+  margin-bottom: 0.5rem;
+  text-transform: capitalize;
+  color: #fff;
+}
+
+.section-title h2 {
+  color: #fff;
+}
+
+.skill-name {
+  text-align: center;
+  margin-bottom: 3rem;
+  font-size: 1.1rem;
+}
+
+.skill-icn {
+  width: 100px !important;
+  margin: 2rem auto;
+  // padding: 1rem;
+  height: 120px;
+}
+
+@media screen and (max-width: 990px) {
+  .skill-icn {
+    height: 105px;
+    margin: 1rem auto;
+  }
+}
+
+.skills-center article {
+  border: 7px solid #fff;
+  border-radius: 25px;
+  margin: 2rem 0;
+  box-shadow: 5px 5px 45px -15px #fff;
+}
+
+.skill-box-2,
+.skill-box-3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  -webkit-column-gap: 2rem;
+  -moz-column-gap: 2rem;
+  column-gap: 2rem;
+  margin: 0 0.8rem;
+}
+
+.skill-box-1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  -webkit-column-gap: 1.2rem;
+  -moz-column-gap: 1.2rem;
+  column-gap: 1.2rem;
+  justify-items: center;
+}
+
+@media screen and (min-width: 760px) {
+  .skills-center {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    -webkit-column-gap: 2rem;
+    -moz-column-gap: 2rem;
+    column-gap: 2rem;
+  }
+
+  .skill-box-1 {
+    display: grid;
+    grid-template-columns: 1fr;
+    -webkit-column-gap: 1.2rem;
+    -moz-column-gap: 1.2rem;
+    column-gap: 1.2rem;
+  justify-items: center;
+
+  }
+}
+
+@media screen and (min-width: 1170px) {
+.skills-center {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    -webkit-column-gap: 2rem;
+    column-gap: 2rem;
+    align-items: start;
+    justify-content: center;
+}
+
+  .skill-box-2,
+  .skill-box-3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    -webkit-column-gap: 2rem;
+    -moz-column-gap: 2rem;
+    column-gap: 2rem;
+  }
+
+  .skill-box-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    -webkit-column-gap: 1.2rem;
+    -moz-column-gap: 1.2rem;
+    column-gap: 1.2rem;
+  justify-items: center;
+
+  }
+}
