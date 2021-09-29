@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: 'portfolio',
     author: 'Natan Ceballos',
-    description: 'JAMstack portfolio and blog website made using Gatsby and Graphql',
+    description: 'JAMstack portfolio and blog website made using Gatsby',
   },
   plugins: [
     {
@@ -14,7 +14,7 @@ module.exports = {
         background_color: '#663399',
         theme_color: '#663399',
         display: 'minimal-ui',
-        icon: 'src/assets/images/website-icon.png', // This path is relative to the root of the site.
+        icon: 'src/', // This path is relative to the root of the site.
       },
     },
     'gatsby-plugin-smoothscroll',

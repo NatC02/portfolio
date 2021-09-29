@@ -1,12 +1,12 @@
 import React from 'react'
 
+import pdfResume from "../assets/document/DraftNewJerseyCityResume.pdf"
+
 class About extends React.Component {
   render() {
     return (
-      <section id="four" className="green sectionAbout">
-        <h1>
-          About
-        </h1>
+      <section id="four" className="tan sectionAbout">
+        <h1>About</h1>
 
         <div class="wave">
           <svg
@@ -27,17 +27,26 @@ class About extends React.Component {
           <div class="all-who">
             <div class="div-para">
               <p data-aos="zoom-in-down">
-                Computers to me are like what air is to lungs. Without it, I
-                would die. That was no joke. Seriously. Before web development,
-                I bricked my computer more times than I could count and fixed
-                it. The experience was like playing Doctor Frankenstein, trying
-                to figure out what pieces go where and how they connect. I took
-                apart computers just as much as I put them together. <br />
+                As a Freshman student of New Jersey City University studying
+                Computer Science, I'm intrigued by Fullstack Web Development.
+                I'm a Junior Front End Software Engineer at
+                <a
+                  href="https://bhoroshabangladesh.mystrikingly.com/"
+                >
+                  <span> Bhorosha Nonprofit Organization</span>
+                </a>
+                , where I'm working on an initiative to help +1000
+                underrepresented women in Dhaka, Bangladesh get jobs in the
+                informal and formal sectors. This aim is aligned with the United
+                Nations' 17 Sustainable Development Goals . 1: No Poverty, 8:
+                Decent Work and Economic Growth, and 10: Reduced Inequalities.
               </p>
             </div>
-            <button data-aos="zoom-in-down" >
-              Download CV
-            </button>
+            <button data-aos="zoom-in-down">
+              
+            <a href={pdfResume}>
+              Download CV</a>
+              </button>
           </div>
         </div>
         {/* </section> */}

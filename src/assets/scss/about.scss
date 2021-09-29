@@ -12,13 +12,13 @@
     margin-top: 20px;
   }
    .who-am-i .all-who .div-para {
-    width: 200px;
+    width: clamp(100px, 100%, 800px);
     position: relative;
     left: 50%;
     transform: translate(-50%);
   }
    .who-am-i .all-who .div-para p {
-    font-size: 16px;
+    font-size: clamp(1.4em, 2.1vw, 1.1em);
   
     color: white;
     text-align: center;
@@ -35,4 +35,7 @@
     font-size: 2rem;
     cursor: pointer;
   }
-  
+
+  button a {
+    color: black;
+  }

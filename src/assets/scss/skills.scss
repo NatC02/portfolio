@@ -37,7 +37,7 @@
 }
 
 .section-title h2 {
-  color: #fff;
+  color: transparent;
 }
 
 .skill-name {
@@ -61,16 +61,16 @@
 }
 
 .skills-center article {
-  border: 7px solid #fff;
+  border: 7px solid transparent;
   border-radius: 25px;
   margin: 2rem 0;
-  box-shadow: 5px 5px 45px -15px #fff;
+  box-shadow: 5px 5px 45px -15px transparent;
 }
 
 .skill-box-2,
 .skill-box-3 {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   -webkit-column-gap: 2rem;
   -moz-column-gap: 2rem;
   column-gap: 2rem;
@@ -127,7 +127,7 @@
 
   .skill-box-1 {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     -webkit-column-gap: 1.2rem;
     -moz-column-gap: 1.2rem;
     column-gap: 1.2rem;

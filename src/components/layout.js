@@ -19,7 +19,7 @@ import Footer from './Footer'
 class Template extends React.Component {
   constructor(props) {
     super(props)
-    this.state = {
+  this.state = {
       loading: 'is-loading',
     }
   }
