@@ -5,15 +5,17 @@ class Header extends React.Component {
   render() {
     return (
       <section className="blue sectionHeader">
-        <h1 >
-          Hi, I'm <strong className="animate__bounceIn" > Natan Ceballos.</strong>
+        <h1 className="animate__animated animate__fast animate__fadeInLeft">
+          Hi, I'm {}
+          <span className="animate__animated animate__faster animate__fadeInLeftBig">
+            Natan Ceballos.
+          </span>
         </h1>
-        <h2>
-          I'm a <strong className="animate__bounceIn">Frontend </strong>
-          Software Engineer.
+        <h2 className="animate__animated animate__fast animate__fadeInLeft">
+          Fullstack Software Engineer
         </h2>
 
-        <ul className="animate__bounceIn">
+        <ul className="animate__animated animate__delay-1s animate__slower animate__fadeIn">
           <button onClick={() => scrollTo('#one')}>
             <h4>Skills</h4>
           </button>
