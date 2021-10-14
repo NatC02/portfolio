@@ -2,7 +2,6 @@ import React from 'react'
 import "animate.css"
 
 import '../assets/scss/sections.scss'
-import '../assets/scss/skills.scss'
 import "../assets/scss/card.scss"
 import "../assets/scss/about.scss"
 import "../assets/scss/contact.scss"

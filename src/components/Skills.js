@@ -38,15 +38,14 @@ class Skills extends React.Component {
             ></path>
           </svg>
         </div>
-        <h1>Skills</h1>
+        <h1 className>Skills</h1>
         <div class="containerTech">
           <ScrollAnimation
             animateIn="animate__fadeInLeft"
             offset={75}
             animateOnce={true}
-            duration={0.6}
+            duration={0.7}
           >
-            {/* animate__animated animate__faster animate__fadeInLeft */}
             <div class="groupOne ">
               <div class="gOneTitle">Frontend</div>
               <div class="oone">
@@ -117,7 +116,6 @@ class Skills extends React.Component {
            *
            *
            */}
-
           <ScrollAnimation
          animateIn="animate__fadeInLeft"
          offset={75}

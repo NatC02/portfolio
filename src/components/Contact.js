@@ -1,13 +1,17 @@
 import React from 'react'
+import ScrollAnimation from 'react-animate-on-scroll'
 
 class Contact extends React.Component {
   render() {
     return (
       <section id="five" className="sectionContact">
-        <h1>
-          Contact
-        </h1>
-
+        <h1>Contact</h1>
+        <ScrollAnimation
+              animateIn="animate__fadeInUp"
+              offset={75}
+              animateOnce={true}
+              duration={0.7}
+            >
         <form
           name="contact-form"
           method="post"
@@ -66,9 +70,13 @@ class Contact extends React.Component {
 
           <p class="copyright">
             Copyright 2021 |
-            <a href="https://github.com/NatC02/"> ❤️ Natan Ceballos</a>
+            <a href="https://github.com/NatC02/"> ❤️ Natan Ceballos </a>
+            <br />
+            *Form Not Working*
           </p>
         </footer>
+        </ScrollAnimation>
+
       </section>
     )
   }

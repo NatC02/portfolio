@@ -1,12 +1,13 @@
 import React from 'react'
+import ScrollAnimation from 'react-animate-on-scroll'
 
-import pdfResume from "../assets/document/DraftNewJerseyCityResume.pdf"
+import pdfResume from '../assets/document/Resume.pdf'
 
 class About extends React.Component {
   render() {
     return (
       <section id="four" className="tan sectionAbout">
-        <h1>About</h1>
+        <h1 style={{ color: '#68534D' }}>About</h1>
 
         <div class="wave">
           <svg
@@ -22,34 +23,39 @@ class About extends React.Component {
           </svg>
         </div>
 
-        {/* <section id="section-about" class="about-section"> */}
         <div class="who-am-i">
           <div class="all-who">
-            <div class="div-para">
-              <p data-aos="zoom-in-down">
-                As a Freshman student of New Jersey City University studying
-                Computer Science, I'm intrigued by Fullstack Web Development.
-                I'm a Junior Front End Software Engineer at
-                <a
-                  href="https://bhoroshabangladesh.mystrikingly.com/"
-                >
-                  <span> Bhorosha Nonprofit Organization</span>
-                </a>
-                , where I'm working on an initiative to help +1000
-                underrepresented women in Dhaka, Bangladesh get jobs in the
-                informal and formal sectors. This aim is aligned with the United
-                Nations' 17 Sustainable Development Goals . 1: No Poverty, 8:
-                Decent Work and Economic Growth, and 10: Reduced Inequalities.
-              </p>
-            </div>
-            <button data-aos="zoom-in-down">
-              
-            <a href={pdfResume}>
-              Download CV</a>
-              </button>
+            <ScrollAnimation
+              animateIn="animate__fadeInLeft"
+              offset={75}
+              animateOnce={true}
+              duration={0.7}
+            >
+              <div class="div-para">
+                <p data-aos="zoom-in-down">
+                  As a Freshman student of New Jersey City University studying
+                  Computer Science, I'm intrigued by Fullstack Web Development.
+                  I'm a Front End Software Engineer at
+                  <a href="https://bhoroshabangladesh.mystrikingly.com/">
+                    <span> Bhorosha Nonprofit Organization</span>
+                  </a>
+                  , where I'm volunteering my energy on an initiative to help
+                  +1000 underrepresented women in Dhaka, Bangladesh get jobs in
+                  the informal and formal sectors. This aim is aligned with the
+                  United Nations' 17 Sustainable Development Goals . 1: No
+                  Poverty, 8: Decent Work and Economic Growth, and 10: Reduced
+                  Inequalities.
+                </p>
+              </div>
+            </ScrollAnimation>
+
+            <button className="animate__animated animate__delay-less-1 animate__fadeIn" data-aos="zoom-in-down">
+              <a href={pdfResume}>
+                <h1>Resume</h1>
+              </a>
+            </button>
           </div>
         </div>
-        {/* </section> */}
       </section>
     )
   }

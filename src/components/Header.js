@@ -11,11 +11,11 @@ class Header extends React.Component {
             Natan Ceballos.
           </span>
         </h1>
-        <h2 className="animate__animated animate__fast animate__fadeInLeft">
-          Fullstack Software Engineer
+        <h2 className="animate__animated animate__fast  animate__fadeInLeft">
+          I'm a full stack developer.
         </h2>
 
-        <ul className="animate__animated animate__delay-1s animate__slower animate__fadeIn">
+        <ul className="animate__animated animate__delay-less-1 animate__fadeIn">
           <button onClick={() => scrollTo('#one')}>
             <h4>Skills</h4>
           </button>
