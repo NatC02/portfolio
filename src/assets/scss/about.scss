@@ -20,16 +20,25 @@
    .who-am-i .all-who .div-para p {
     font-size: clamp(1.4em, 2.1vw, 1.1em);
   
-    color: white;
+    color: #68534D;
+    text-align: center;
+  }
+
+  .who-am-i .all-who .div-para p span{
+    // font-size: clamp(1.4em, 2.1vw, 1.1em);
+  
+    color: #390099;
     text-align: center;
   }
    .who-am-i .all-who button {
+     display: flex;
     position: relative;
     left: 50%;
     transform: translate(-50%);
     margin-top: 20px;
-    height: 100px;
-    width: 300px;
+    background-color: #68534D;
+    // height: 100px;
+    // width: 100px;
     border: none;
   
     font-size: 2rem;
@@ -37,5 +46,9 @@
   }
 
   button a {
-    color: black;
+    color: #edbf85;
+  }
+
+  button a:hover {
+    color: #5C573E;
   }
