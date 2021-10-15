@@ -53,7 +53,7 @@ body {
   flex-direction: column;
   align-items: center;
   min-height: 400px;
-  padding-top: 100px;
+  padding-top: 50px;
 }
 
 // Skills section with grid for each individual technologies section
@@ -87,9 +87,9 @@ body {
   }
 }
 
-/* This element will take .6s instead of 1s */
-.animate__delay-1s {
-  --animate-duration: 0.6s;
+/* This class will take .6s instead of 1s */
+.animate__delay-less-1 {
+  --animate-duration: 0.8s;
 }
 
 // .containerTech {
@@ -243,7 +243,7 @@ body {
   flex-direction: column;
   align-items: center;
   min-height: 400px;
-  padding-top: 100px;
+  padding-top: 240px;
 }
 
 .sectionAbout {
