@@ -45,7 +45,7 @@ class Contact extends React.Component {
             <div class="sm-handle">
               <button>
                 <a
-                  href="https://www.linkedin.com/in/natan-c-66b1a6187/"
+                  href="https://www.linkedin.com/in/natan-ceballos-66b1a6187/"
                   class="sm-button"
                 >
                   <i class="fab fa-linkedin"> LinkedIn </i>
