@@ -80,7 +80,7 @@ Built with and implemented with the following in mind:
 
 ## Usage
 
-![project-demo]()
+![project-demo](https://raw.githubusercontent.com/NatC02/portfolio/main/src/assets/gifs/portfolioDemo.gif?token=AK3KSJICP3OXOL2SYDJKP5LBOT54Q)
 
 ### Built with
 
