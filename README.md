@@ -71,8 +71,8 @@ Built with and implemented with the following in mind:
     - Lazy-load and create remaining routes on demand. - Self-explanatory if you've worked with React before and implemented lazy load, tree shaking, or conditional rendering. 
     -->
 - Animate CSS animation library
-- CSS Grid & CSS Flexbox- Element layout / placement 
-- Netlify - For fast deployment  
+- CSS Grid & CSS Flexbox- Element layout / placement
+- Netlify - For fast deployment
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
