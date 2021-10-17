@@ -1,12 +1,16 @@
-#contactForm {
-    margin: 0 auto;
-    width: -webkit-fill-available;
+form {
+  margin: 0 auto;
+  width: -webkit-fill-available;
+
+  background-color: #414066c9;
+  border-radius: 10px;
+  padding: 20px;
 }
 
-#contactForm input,
+form input,
 textarea {
   letter-spacing: 2px;
-//   font: 200 1em/1.1em 'Helvetica Neue', sans-serif;
+  //   font: 200 1em/1.1em 'Helvetica Neue', sans-serif;
 
   color: #fff;
   background-color: transparent;
@@ -21,16 +25,19 @@ textarea {
   max-width: 400px;
 }
 
-#contactForm textarea {
+form textarea {
   height: 100px;
+  // width: 10px;
 }
 
-#contactForm *:focus {
-  background-color: #78c828;
+form > div:focus {
+  border-radius: 10px;
+  background-color: #414066;
 }
 
-#contactForm *:hover {
-  background-color: #273043;
+form > div:hover {
+  border-radius: 10px;
+  background-color: #414066;
 }
 
 ::-webkit-input-placeholder {
