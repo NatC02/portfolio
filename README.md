@@ -143,6 +143,7 @@ Some of the resources I used or read while building this portfolio.
 ### Resources
 
 - [Color Palettes](https://mycolor.space/?hex=%23FBD82F&sub=1)
+- [SVG Simple](https://www.shapedivider.app/) || [SVG Customization](https://app.haikei.app/)
 - [Color Scheme](https://coolors.co/)
 - [Color Picker from Image](https://imagecolorpicker.com/)
 - [Color Palette Combinations](https://seochecker.it/color-palette-generator)
