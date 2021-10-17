@@ -1,5 +1,6 @@
 import React from "react";
 import ScrollAnimation from "react-animate-on-scroll";
+import scrollTo from "gatsby-plugin-smoothscroll";
 
 class Contact extends React.Component {
   render() {
@@ -44,7 +45,7 @@ class Contact extends React.Component {
             <div class="sm-handle">
               <button>
                 <a
-                  href="https://www.linkedin.com/in/natan-ceballos-66b1a6187"
+                  href="https://www.linkedin.com/in/natan-c-66b1a6187/"
                   class="sm-button"
                 >
                   <i class="fab fa-linkedin"> LinkedIn </i>
@@ -56,6 +57,13 @@ class Contact extends React.Component {
                 </a>
               </button>
             </div>
+
+            <button onClick={() => scrollTo("#head")}>
+              <a class="sm-button">
+                <i class="fab fa-github"> Go to top</i>
+              </a>
+            </button>
+
             <p class="copyright">
               Copyright 2021 |
               <a href="https://github.com/NatC02/"> ❤️ Natan Ceballos </a>
