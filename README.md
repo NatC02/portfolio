@@ -91,6 +91,40 @@ Built with and implemented with the following in mind:
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
+## App structure
+
+```
+├── .cache
+├── node_modules
+├── public
+├── src
+│   ├── assets
+│   │   ├── document
+│   │   ├── gifs
+│   │   ├── icons
+│   │   ├── images
+│   │   ├── imagesReadMe
+│   │   └── scss
+│   ├── components
+│   │   ├── About.js
+│   │   ├── Blog.js
+│   │   ├── Contact.js
+│   │   ├── Footer.js
+│   │   ├── Header.js
+│   │   ├── layout.js
+│   │   ├── Project.js
+│   │   └── Skills.js
+│   ├── pages
+│   │   ├── 404.js
+│   │   └── index.js  
+├── gatsby-config.js
+├── package-lock.json
+├── package.json
+└── README.md
+```
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
 <!-- GETTING STARTED -->
 ## Getting Started
 
