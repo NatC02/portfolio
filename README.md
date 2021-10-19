@@ -135,11 +135,6 @@ By doing the following:
 
 Some of the resources I used or read while building this portfolio.
 
-### Theory
-
-- [60 30 10 Rule](https://www.flowmapp.com/blog/glossary-term/60-30-10-rule)
-- [Golden Ratio](https://www.invisionapp.com/inside-design/golden-ratio-designers/)
-
 ### Resources
 
 - [Color Palettes](https://mycolor.space/?hex=%23FBD82F&sub=1)
@@ -148,5 +143,11 @@ Some of the resources I used or read while building this portfolio.
 - [Color Picker from Image](https://imagecolorpicker.com/)
 - [Color Palette Combinations](https://seochecker.it/color-palette-generator)
 - [HEX to HSL](https://htmlcolors.com/hex-to-hsl)
+- [Custom Domain Setup](https://medium.com/learnaws/route-domain-in-aws-route53-to-netlify-webapp-4891e39e5051)
+
+### Theory
+
+- [60 30 10 Rule](https://www.flowmapp.com/blog/glossary-term/60-30-10-rule)
+- [Golden Ratio](https://www.invisionapp.com/inside-design/golden-ratio-designers/)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
