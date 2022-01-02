@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: "Architects Daughter", cursive;
+  font-family: "Source Code Pro", monospace;
+  overflow-x: hidden;
+  color: white;
+
+  background: #282c35 100%;
+}
