@@ -62,7 +62,7 @@
 
 ## About The Project
 
-<img src="./src/assets/imagesReadMe/fullscreenScreenshotV2.png" alt="Logo" width="400" height="1200">
+<img src="./src/assets/imagesReadMe/fullscreenScreenshotV2.png" alt="Logo" width="200" height="700">
 
 Built with and implemented with the following in mind:
 
