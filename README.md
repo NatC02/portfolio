@@ -25,6 +25,7 @@
     <img src="./src/assets/imagesReadMe/gitNetlify.svg" alt="Logo" width="300" height="100">
     <img src="./src/assets/imagesReadMe/gitAnimate.svg" alt="Logo" width="300" height="100">
     <img src="./src/assets/imagesReadMe/gitCSS3.svg" alt="Logo" width="300" height="100">
+    <img src="./src/assets/imagesReadMe/tailwindCSS.svg" alt="Logo" width="300" height="100">
   </a>
 
   <h3 align="center">Gatsby Portfolio V2</h3>
