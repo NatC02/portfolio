@@ -13,22 +13,22 @@
 //   font-size: 1rem;
 // }
 
-// body {
-//   margin: 0;
-//   font-family: "source-code-pro", monospace;
-//   overflow-x: hidden;
-//   color: white;
+body {
+  margin: 0;
+  font-family: "source-code-pro", monospace;
+  overflow-x: hidden;
+  color: white;
 
-//   background: #78c828 100%;
-//   background-size: 600% 600%;
-//   animation: gradient 12s ease infinite;
-// }
+  background: #78c828 100%;
+  background-size: 600% 600%;
+  animation: gradient 12s ease infinite;
+}
 
 // Header section
 
 .sectionHeader {
   min-height: 150px;
-  padding-top: 25px;
+  padding-top: 18.75px;
 }
 
 // Skills section with grid for each individual technologies section
@@ -249,8 +249,8 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  min-height: 400px;
-  padding-top: 100px;
+  min-height: 200px;
+  padding-top: 25px;
 }
 
 .sectionContact {
@@ -415,20 +415,20 @@
 }
 
 /** For tablet devices **/
-@media (min-width: 768px) and (max-width: 1023px) {
-  .skillsWave svg {
-    width: calc(150% + 1.3px);
-    height: 105px;
-  }
-}
+// @media (min-width: 768px) and (max-width: 1023px) {
+//   .skillsWave svg {
+//     width: calc(150% + 1.3px);
+//     height: 105px;
+//   }
+// }
 
-/** For mobile devices **/
-@media (max-width: 767px) {
-  .skillsWave svg {
-    width: calc(100% + 1.3px);
-    height: 171px;
-  }
-}
+// /** For mobile devices **/
+// @media (max-width: 767px) {
+//   .skillsWave svg {
+//     width: calc(100% + 1.3px);
+//     height: 171px;
+//   }
+// }
 
 /* SVG background image via https://haikei.app/ */
 
