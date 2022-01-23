@@ -19,9 +19,26 @@ body {
   overflow-x: hidden;
   color: white;
 
-  background: #78c828 100%;
+  background: linear-gradient(
+    137.42deg,
+    #457317 0%,
+    #78c828 50.43%,
+    #457317 100%
+  );
   background-size: 600% 600%;
   animation: gradient 12s ease infinite;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
 
 // Header section
