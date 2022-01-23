@@ -132,14 +132,14 @@ export default function Home() {
                 Contact
               </span>
 
-              <Link
-                to="/blog"
+              <a
+                href="https://natc02.github.io/blog"
                 className="py-2 px-4 bg-lime-600 hover:bg-lime-700 focus:ring-lime-500 focus:ring-offset-lime-200 text-white w-full transition ease-in duration-200 text-center text-base font-semibold shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2 rounded-lg cursor-pointer"
                 aria-label="My Blog!"
                 title="My Blog!"
               >
                 <span>Blog</span>
-              </Link>
+              </a>
             </div>
 
             <div className="lg:hidden">
@@ -246,14 +246,14 @@ export default function Home() {
                           </span>
                         </li>
                         <li>
-                          <Link
-                            to="/blog"
+                          <a
+                            href="https://natc02.github.io/blog"
                             className="inline-flex items-center justify-center w-full h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-lime-400 hover:bg-lime-700 focus:shadow-outline focus:outline-none"
                             aria-label="Blog"
                             title="Blog"
                           >
                             My Blog
-                          </Link>
+                          </a>
                         </li>
                       </ul>
                     </nav>
@@ -289,7 +289,7 @@ export default function Home() {
 
       <section className="bg-blue sectionHeader body-font">
         <div className="container px-5 mx-auto">
-          <div className="flex flex-col text-center w-full mb-12">
+          <div className="flex flex-col text-center w-full">
             <span className="sm:text-4xl text-3xl font-bold title-font mb-4">
               My name is, Natan Ceballos
             </span>
@@ -298,6 +298,7 @@ export default function Home() {
             </span>
           </div>
         </div>
+        
       </section>
 
       {/*
@@ -323,7 +324,11 @@ export default function Home() {
        */}
 
       <div id="Skills" className="sectionSkills">
-        <div className="skillsWave">
+      
+
+        <section className="text-gray-600 body-font">
+
+            <div className="skillsWave">
           <svg
             data-name="Layer 1"
             xmlns="http://www.w3.org/2000/svg"
@@ -336,8 +341,6 @@ export default function Home() {
             ></path>
           </svg>
         </div>
-
-        <section className="text-gray-600 body-font">
           <div className="container px-5 py-12 mx-auto">
             <div className="flex flex-col text-center w-full">
               <span className="sm:text-4xl text-3xl font-bold title-font mb-12 text-white">
@@ -347,14 +350,14 @@ export default function Home() {
 
             <div className="flex flex-col text-center w-full mb-10">
               <span className="sm:text-2xl text-xl font-medium title-font mb-4 text-white">
-                Backend
+                Front End
               </span>
               <hr />
             </div>
 
             <div className="flex flex-wrap -m-2">
               <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
-                <div className="h-full flex flex-col items-center border-gray-400 border p-2 rounded-lg">
+                <div className="h-full flex flex-col items-center border-white border p-2 rounded-lg">
                   <img
                     alt="team"
                     className="skill-icn"
@@ -369,7 +372,7 @@ export default function Home() {
                 </div>
               </div>
               <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
-                <div className="h-full flex flex-col items-center border-gray-400 border p-2 rounded-lg">
+                <div className="h-full flex flex-col items-center border-white border p-2 rounded-lg">
                   <img
                     alt="team"
                     className="skill-icn"
@@ -384,7 +387,7 @@ export default function Home() {
                 </div>
               </div>
               <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
-                <div className="h-full flex flex-col items-center border-gray-400 border p-2 rounded-lg">
+                <div className="h-full flex flex-col items-center border-white border p-2 rounded-lg">
                   <img
                     alt="team"
                     className="skill-icn"
@@ -399,7 +402,7 @@ export default function Home() {
                 </div>
               </div>
               <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
-                <div className="h-full flex flex-col items-center border-gray-400 border p-2 rounded-lg">
+                <div className="h-full flex flex-col items-center border-white border p-2 rounded-lg">
                   <img
                     alt="team"
                     className="skill-icn"
@@ -414,7 +417,7 @@ export default function Home() {
                 </div>
               </div>
               <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
-                <div className="h-full flex flex-col items-center border-gray-400 border p-2 rounded-lg">
+                <div className="h-full flex flex-col items-center border-white border p-2 rounded-lg">
                   <img
                     alt="team"
                     className="skill-icn"
@@ -429,7 +432,7 @@ export default function Home() {
                 </div>
               </div>
               <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
-                <div className="h-full flex flex-col items-center border-gray-400 border p-2 rounded-lg">
+                <div className="h-full flex flex-col items-center border-white border p-2 rounded-lg">
                   <img
                     alt="team"
                     className="skill-icn"
@@ -457,7 +460,7 @@ export default function Home() {
             </div>
             <div className="flex flex-wrap -m-2">
               <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
-                <div className="h-full flex flex-col items-center border-gray-400 border p-2 rounded-lg">
+                <div className="h-full flex flex-col items-center border-white border p-2 rounded-lg">
                   <img
                     alt="team"
                     className="skill-icn"
@@ -472,7 +475,7 @@ export default function Home() {
                 </div>
               </div>
               <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
-                <div className="h-full flex flex-col items-center border-gray-400 border p-2 rounded-lg">
+                <div className="h-full flex flex-col items-center border-white border p-2 rounded-lg">
                   <img
                     alt="team"
                     className="skill-icn"
@@ -487,7 +490,7 @@ export default function Home() {
                 </div>
               </div>
               <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
-                <div className="h-full flex flex-col items-center border-gray-400 border p-2 rounded-lg">
+                <div className="h-full flex flex-col items-center border-white border p-2 rounded-lg">
                   <img
                     alt="team"
                     className="skill-icn"
@@ -503,7 +506,7 @@ export default function Home() {
               </div>
 
               <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
-                <div className="h-full flex flex-col items-center border-gray-400 border p-2 rounded-lg">
+                <div className="h-full flex flex-col items-center border-white border p-2 rounded-lg">
                   <img
                     alt="team"
                     className="skill-icn"
@@ -518,7 +521,7 @@ export default function Home() {
                 </div>
               </div>
               <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
-                <div className="h-full flex flex-col items-center border-gray-400 border p-2 rounded-lg">
+                <div className="h-full flex flex-col items-center border-white border p-2 rounded-lg">
                   <img
                     alt="team"
                     className="skill-icn"
@@ -533,7 +536,7 @@ export default function Home() {
                 </div>
               </div>
               <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
-                <div className="h-full flex flex-col items-center border-gray-400 border p-2 rounded-lg">
+                <div className="h-full flex flex-col items-center border-white border p-2 rounded-lg">
                   <img
                     alt="team"
                     className="skill-icn"
@@ -561,7 +564,7 @@ export default function Home() {
             </div>
             <div className="flex flex-wrap justify-center -m-2">
               <div className="p-4 lg:w-1/3 md:w-1/2 w-full">
-                <div className="h-full flex flex-col items-center border-gray-400 border p-2 rounded-lg">
+                <div className="h-full flex flex-col items-center border-white border p-2 rounded-lg">
                   <img
                     alt="team"
                     className="skill-icn"
@@ -576,7 +579,7 @@ export default function Home() {
                 </div>
               </div>
               <div className="p-4 lg:w-1/3 md:w-1/2 w-full">
-                <div className="h-full flex flex-col items-center border-gray-400 border p-2 rounded-lg">
+                <div className="h-full flex flex-col items-center border-white border p-2 rounded-lg">
                   <img
                     alt="team"
                     className="skill-icn"
@@ -591,7 +594,7 @@ export default function Home() {
                 </div>
               </div>
               <div className="p-4 lg:w-1/3 md:w-1/2 w-full">
-                <div className="h-full flex flex-col items-center border-gray-400 border p-2 rounded-lg">
+                <div className="h-full flex flex-col items-center border-white border p-2 rounded-lg">
                   <img
                     alt="team"
                     className="skill-icn"
@@ -607,7 +610,7 @@ export default function Home() {
               </div>
 
               <div className="p-4 lg:w-1/3 md:w-1/2 w-full">
-                <div className="h-full flex flex-col items-center border-gray-400 border p-2 rounded-lg">
+                <div className="h-full flex flex-col items-center border-white border p-2 rounded-lg">
                   <img
                     alt="team"
                     className="skill-icn"
@@ -1174,7 +1177,7 @@ export default function Home() {
        *
        */}
 
-      <section className="w-full max-w-2xl px-6 py-4 mx-auto bg-white rounded-md shadow-md dark:bg-gray-800">
+      <section id="Contact" className="w-full max-w-2xl px-6 py-4 mx-auto bg-white rounded-md shadow-md dark:bg-gray-800">
         <div className="flex flex-col justify-center">
           <span className="text-3xl font-semibold text-center text-gray-800 dark:text-white">
             Get in touch
@@ -1244,9 +1247,9 @@ export default function Home() {
             </div>
 
             <div className="flex justify-center mt-6">
-              <span className="px-4 py-2 text-white transition-colors duration-200 transform bg-gray-700 rounded-md hover:bg-gray-600 focus:outline-none focus:bg-gray-600">
+              <button className="px-4 py-2 text-white transition-colors duration-200 transform bg-gray-700 rounded-md hover:bg-gray-600 focus:outline-none focus:bg-gray-600 cursor-pointer">
                 Send Message
-              </span>
+              </button>
             </div>
           </div>
         </form>
